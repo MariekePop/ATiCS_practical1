@@ -1,5 +1,5 @@
 # ATiCS_practical1
-**First install the environment ATiCS_P1.yml**[click here if error dataset](#If after installing the environment we get the following error:)
+**First install the environment ATiCS_P1.yml**[click here if error dataset](#dataset-error)
 conda create –ATiCS_P1.yml
 
 **Activate the environment**
@@ -55,7 +55,7 @@ sbatch run_P1.job
 
 
 
-#**If after installing the environment we get the following error:**
+#dataset-error**If after installing the environment we get the following error:**
 
 Traceback (most recent call last):
 File "practical1.py", line 16, in <module>
