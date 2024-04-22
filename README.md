@@ -2,6 +2,15 @@
 
 This repository contains the code for practical1 from the ATiCS course at the UvA. It's based on the article from Conneau et al. (https://aclanthology.org/D17-1070.pdf)
 
+##Structure
+The repository contains the following files:
+* ATiCS_P1.yml the environment
+* install_environment.job the file that installs the environment on snellius
+* practical1.py the file that has all the code needed to train the models
+* run_P1.job the file that runs the practical1.py file on snellius
+* checkpoints_official map contains all checkpoint.pth files of the trained models
+* runs_official map contains all runs for every model_type 
+
 
 
 **First install the environment ATiCS_P1.yml** [click here if error dataset](#Dataset-error)
