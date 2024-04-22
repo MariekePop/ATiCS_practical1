@@ -3,14 +3,17 @@
 This repository contains the code for practical1 from the ATiCS course at the UvA. It's based on the article from Conneau et al. (https://aclanthology.org/D17-1070.pdf)
 
 ##Structure
+
 The repository contains the following files:
 * ATiCS_P1.yml the environment
 * install_environment.job the file that installs the environment on snellius
 * practical1.py the file that has all the code needed to train the models
-* run_P1.job the file that runs the practical1.py file on snellius
+* practical1_eval.py file that has all the code needed to test the models
+* run_P1.job the file that runs the practical1.py file on Snellius
+* run_P1.job the file that runs the practical1_eval.py file on Snellius
 * Tensorboard map contains pictures of the Tensorboard graphs
 * checkpoints_official map contains all trained models in the checkpoint.pth for every model_type
-* logs_official map contains the slurm output files from training on snellius for every model_type and a map with all logs from the test phase
+* logs_official map contains the slurm output files from training on Snellius for every model_type and a map with all logs from the test phase
 * runs_official map contains all runs for every model_type
 
 
