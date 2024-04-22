@@ -74,7 +74,8 @@ If not explicitly defined, they'll be the defaultvalues from Conneau et al. (htt
 
 
 
-## #dataset-error **If after installing the environment we get the following error:**
+## If after installing the environment we get the following error:
+#dataset-error
 
 Traceback (most recent call last):
 File "practical1.py", line 16, in <module>
