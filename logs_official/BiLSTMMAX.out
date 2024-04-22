@@ -1,0 +1,27 @@
+78
+practical1.py:417: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1711403232953/work/torch/csrc/utils/tensor_new.cpp:275.)
+  indexed = torch.tensor(indexed).unsqueeze(0)
+practical1.py:439: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  all_embeddings[torch.tensor(embeddings, dtype=torch.float32).clone().detach()] = torch.tensor(datapoint['label'], dtype=torch.long).clone().detach()
+Skipping datapoint: {'premise': 'A man is rolling a suitcase in front of a bunch of red flowers.', 'hypothesis': 'Thi', 'label': 2}, premise_embedding and hypothesis_embedding have different dimensions
+checkpoint saved to best_model_checkpoint_BiLSTM_MAX1.pth
+Epoch [1/5], Train Loss: 1.0987, Val Loss: 1.0986, Val Acc: 33.82%
+Epoch [2/5], Train Loss: 1.0986, Val Loss: 1.0986, Val Acc: 33.82%
+Epoch [3/5], Train Loss: 1.0986, Val Loss: 1.0986, Val Acc: 33.31%
+Epoch [4/5], Train Loss: 1.0986, Val Loss: 1.0986, Val Acc: 33.31%
+Epoch [5/5], Train Loss: 1.0986, Val Loss: 1.0986, Val Acc: 33.31%
+
+JOB STATISTICS
+==============
+Job ID: 6000040
+Cluster: snellius
+User/Group: scur0234/scur0234
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 17:47:24 core-walltime
+Job Wall-clock time: 00:59:18
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 120.00 GB (120.00 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
