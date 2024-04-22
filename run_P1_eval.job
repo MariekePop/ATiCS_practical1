@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=ExampleJob
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=04:00:00
+#SBATCH --output=slurm_output_%A.out
+
+
+
+# Activate your environment
+source activate ATiCS_P1
+# Run your code
+srun python -u practical1_eval.py baseline best_model_checkpoint_baseline1.pth
