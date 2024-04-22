@@ -87,7 +87,8 @@ Please update datasets:
 1.     conda activate AtiCS_P1
 2.     pip install -U datasets
 or
-2.         conda install -c huggingface -n ATiCS_P1 datasets
+
+2.     conda install -c huggingface -n ATiCS_P1 datasets
 
 
 
