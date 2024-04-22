@@ -1,4 +1,9 @@
 # ATiCS_practical1
+
+This repository contains the code for practical1 from the ATiCS course at the UvA. It's based on the article from Conneau et al. (https://aclanthology.org/D17-1070.pdf)
+
+
+
 **First install the environment ATiCS_P1.yml** [click here if error dataset](#dataset-error)
 
     conda create –ATiCS_P1.yml
@@ -31,7 +36,7 @@ The four model_type options:
 
 
 
-# When working on snellius, first put files on snellius
+## When working on snellius, first put files on snellius
 
     rsync -av source scur___@snellius.surf.nl:~/destination
 
