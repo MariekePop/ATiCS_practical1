@@ -1,5 +1,5 @@
 # ATiCS_practical1
-* First install the environment ATiCS_P1.yml
+^ First install the environment ATiCS_P1.yml
 conda create –ATiCS_P1.yml
 
 Activate the environment
