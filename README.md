@@ -6,9 +6,11 @@ This repository contains the code for practical1 from the ATiCS course at the Uv
 
 The repository contains the following files:
 * ATiCS_P1.yml the environment
+* ATiCS_Report report on results, findings including plots, analysis and conlsusions
 * install_environment.job the file that installs the environment on snellius
 * practical1.py the file that has all the code needed to train the models
 * practical1_eval.py file that has all the code needed to test the models
+* practical1_notebook_demonstration.ipynb notebook with example sentences based on the Undirectional LSTM
 * run_P1.job the file that runs the practical1.py file on Snellius
 * run_P1.job the file that runs the practical1_eval.py file on Snellius
 * Tensorboard map contains pictures of the Tensorboard graphs
