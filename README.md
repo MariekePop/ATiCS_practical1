@@ -20,7 +20,7 @@ The repository contains the following files:
 
 The code was made in python 3.11 and the needed packages can be downloaded through the environment: ATiCS_P1.yml
 
-The used datasets are downloaded automatically when running the code (practical1.py and practical1_eval.py).
+The used datasets (SNLI https://nlp.stanford.edu/projects/snli/) are downloaded automatically when running the code (practical1.py and practical1_eval.py).
 
 **First install the environment ATiCS_P1.yml** [click here if error dataset](#Dataset-error)
 
