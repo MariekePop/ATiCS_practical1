@@ -16,8 +16,11 @@ The repository contains the following files:
 * logs_official map contains the slurm output files from training on Snellius for every model_type and a map with all logs from the test phase
 * runs_official map contains all runs for every model_type
 
+## Requirements
 
+The code was made in python 3.11 and the needed packages can be downloaded through the environment: ATiCS_P1.yml
 
+The used datasets are downloaded automatically when running the code (practical1.py and practical1_eval.py).
 
 **First install the environment ATiCS_P1.yml** [click here if error dataset](#Dataset-error)
 
@@ -79,9 +82,6 @@ If not explicitly defined, they'll be the defaultvalues from Conneau et al. (htt
 **Run the training file**
 
     sbatch run_P1.job
-
-
-
 
 
 
