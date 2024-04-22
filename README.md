@@ -51,7 +51,7 @@ The four model_type options:
     python -u path_to_file/practical1.py bilstm
     python -u path_to_file/practical1.py bilstm-max
 
-**run the test file**
+**Run the test file**
 
 The four model_type options:
 
