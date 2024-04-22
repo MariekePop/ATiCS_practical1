@@ -1,0 +1,18 @@
+54
+practical1_eval.py:142: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  all_embeddings_baseline[torch.tensor(embeddings, dtype=torch.float32).clone().detach()] = torch.tensor(datapoint['label'], dtype=torch.long).clone().detach()
+Accuracy on test set: 32.95%
+
+JOB STATISTICS
+==============
+Job ID: 6012510
+Cluster: snellius
+User/Group: scur0234/scur0234
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:01:25
+CPU Efficiency: 4.92% of 00:28:48 core-walltime
+Job Wall-clock time: 00:01:36
+Memory Utilized: 672.53 MB
+Memory Efficiency: 0.55% of 120.00 GB

@@ -1,0 +1,21 @@
+54
+practical1_eval.py:188: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1711403232953/work/torch/csrc/utils/tensor_new.cpp:275.)
+  indexed = torch.tensor(indexed).unsqueeze(0)
+practical1_eval.py:210: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  all_embeddings[torch.tensor(embeddings, dtype=torch.float32).clone().detach()] = torch.tensor(datapoint['label'], dtype=torch.long).clone().detach()
+Accuracy on test set: 34.28%
+
+JOB STATISTICS
+==============
+Job ID: 6012473
+Cluster: snellius
+User/Group: scur0234/scur0234
+State: RUNNING
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:38:42 core-walltime
+Job Wall-clock time: 00:02:09
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 120.00 GB (120.00 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
