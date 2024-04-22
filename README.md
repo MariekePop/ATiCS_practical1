@@ -30,9 +30,9 @@ The used datasets (SNLI https://nlp.stanford.edu/projects/snli/) are downloaded 
 
     conda activate ATiCS_P1
 
-**Run the training file (insert model of choice) after the model_type**
+**Run the training file**
 
-PS. There are some optional arguments:
+PS. Besides the mandatory model_type, there are some optional arguments:
 
 checkpoint_path:  to alter the path to save the best model checkpoint
 
@@ -51,6 +51,14 @@ The four model_type options:
     python -u path_to_file/practical1.py bilstm
     python -u path_to_file/practical1.py bilstm-max
 
+**run the test file**
+
+The four model_type options:
+
+    python -u path_to_file/practical1.py baseline path_to_file/checkpoint_file.pth
+    python -u path_to_file/practical1.py udlstm path_to_file/checkpoint_file.pth
+    python -u path_to_file/practical1.py bilstm path_to_file/checkpoint_file.pth
+    python -u path_to_file/practical1.py bilstm-max path_to_file/checkpoint_file.pth
 
 
 
@@ -83,9 +91,16 @@ If not explicitly defined, they'll be the defaultvalues from Conneau et al. (htt
 
     sbatch run_P1.job
 
+**Alter the run_P1_eval.job file to run the model_type of your choice**
 
+    srun python -u path_to_file/practical1_eval.py baseline path_to_file/checkpoint_file.pth
+    srun python -u path_to_file/practical1_eval.py udlstm path_to_file/checkpoint_file.pth
+    srun python -u path_to_file/practical1_eval.py bilstm path_to_file/checkpoint_file.pth
+    srun python -u path_to_file/practical1_eval.py bilstm-max path_to_file/checkpoint_file.pth
 
+**Run the test file**
 
+    sbatch run_P1_eval.job
 
 
 
