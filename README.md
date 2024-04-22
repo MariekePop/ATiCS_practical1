@@ -8,10 +8,11 @@ The repository contains the following files:
 * install_environment.job the file that installs the environment on snellius
 * practical1.py the file that has all the code needed to train the models
 * run_P1.job the file that runs the practical1.py file on snellius
+* Tensorboard map contains pictures of the Tensorboard graphs
 * checkpoints_official map contains all trained models in the checkpoint.pth for every model_type
 * logs_official map contains the slurm output files from training on snellius for every model_type
 * runs_official map contains all runs for every model_type
-* Tensorboard map contains pictures of the Tensorboard graphs
+
 
 
 
