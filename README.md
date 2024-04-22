@@ -9,17 +9,19 @@ conda activate ATiCS_P1
 
 **Run the training file (insert model of choice) after the model_type**
 
-**PS. There are some optional arguments:**
+    PS. There are some optional arguments:
 
-**checkpoint_path:  to alter the path to save the best model checkpoint**
+checkpoint_path:  to alter the path to save the best model checkpoint
 
-**--lr: to alter the learning rate**
+--lr: to alter the learning rate
 
-**--lr_threshold: to alter the learning rate threshold for early stopping**
+--lr_threshold: to alter the learning rate threshold for early stopping
 
-**-epochs: to alter the number of epochs**
+-epochs: to alter the number of epochs
 
-**If not explicitly defined, they'll be the defaultvalues from Conneau et al. (https://aclanthology.org/D17-1070.pdf)**
+If not explicitly defined, they'll be the defaultvalues from Conneau et al. (https://aclanthology.org/D17-1070.pdf)
+
+The four model_type options:
 
 python -u path_to_file/practical1.py baseline
 python -u path_to_file/practical1.py udlstm
