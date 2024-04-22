@@ -4,6 +4,7 @@
 conda create –ATiCS_P1.yml
 
 **Activate the environment**
+
 conda activate ATiCS_P1
 
 **Run the training file (insert model of choice) after the model_type
@@ -23,12 +24,15 @@ python -u path_to_file/practical1.py bilstm-max
 
 
 # When working on snellius, first put files on snellius
+
 rsync -av source scur___@snellius.surf.nl:~/destination
 
- **Then run the installation of the environment file **
+ **Then run the installation of the environment file** [click here if error dataset](#dataset-error)
+ 
 sbatch install_environment.job
 
 **Activate the environment**
+
 conda activate ATiCS_P1
 
 **Alter the run_P1.job file to run the model_type of your choice (see options below)
@@ -45,6 +49,7 @@ srun python -u path_to_file/practical1.py bilstm
 srun python -u path_to_file/practical1.py bilstm-max
 
 **Run the training file**
+
 sbatch run_P1.job
 
 
@@ -56,7 +61,7 @@ sbatch run_P1.job
 
 
 
-#dataset-error**If after installing the environment we get the following error:**
+#dataset-error **If after installing the environment we get the following error:**
 
 Traceback (most recent call last):
 File "practical1.py", line 16, in <module>
