@@ -4,7 +4,7 @@ This repository contains the code for practical1 from the ATiCS course at the Uv
 
 
 
-**First install the environment ATiCS_P1.yml** [click here if error dataset](#dataset-error)
+**First install the environment ATiCS_P1.yml** [click here if error dataset](#Dataset-error)
 
     conda create –ATiCS_P1.yml
 
@@ -74,7 +74,7 @@ If not explicitly defined, they'll be the defaultvalues from Conneau et al. (htt
 
 
 
-## dataset-error
+## Dataset-error
 
 If after installing the environment we get the following error:
 
